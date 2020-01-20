@@ -10,10 +10,14 @@ BMI = mass / height^2 = mass / (height * height).
 4. Print a string to the console containing the variable from step 3. (Something like "Is Marks BMI higher than John's? True").
 */
 
-var MarkMass = 119;
-var MarkHeight = 190;
+var markMass = 119;
+var markHeight = 190;
 
-var JohnMass = 70;
-var JohnHeight = 160;
+var johnMass = 70;
+var johnHeight = 160;
 
-console.log(MarkMass);
+
+var markBMI = markMass / (markHeight * markHeight);
+var johnBMI = johnMass / (johnHeight * johnHeight);
+console.log(markBMI);
+console.log(johnBMI);
