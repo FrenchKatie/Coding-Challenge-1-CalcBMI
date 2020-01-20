@@ -21,3 +21,6 @@ var markBMI = markMass / (markHeight * markHeight);
 var johnBMI = johnMass / (johnHeight * johnHeight);
 console.log(markBMI);
 console.log(johnBMI);
+
+var markHigherBMI = markBMI > johnBMI;
+console.log("Does Mark have a higher BMI? " + markHigherBMI);
